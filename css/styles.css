@@ -922,4 +922,16 @@ body{
 .modal-form-btn:focus {
     background-color: #188CE8;
 }
+.contact-form-checkbox-link{
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+    
+    color: #2196F3;
+}
 /* =============== /МОДАЛЬНАЯ ФОРМА =============== */
