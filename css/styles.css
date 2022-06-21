@@ -450,9 +450,7 @@ body{
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    transition: 
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-section-list-icon{
     fill: #AFB1B8;
@@ -460,8 +458,7 @@ body{
 }
 .clients-section-list-link:hover,
 .clients-section-list-link:focus{
-    color: #AFB1B8;
-    border: 1px solid #2196F3;;
+    border: 1px solid #2196F3;
 }
 .clients-section-list-link:hover .clients-section-list-icon,
 .clients-section-list-link:focus .clients-section-list-icon{
@@ -600,6 +597,7 @@ body{
     padding: 15px 16px;
     outline: none;
     background-color: transparent;
+    color: #ffffff;
 }
 .footer-sct-form-btn{
     display: flex;
@@ -631,7 +629,7 @@ body{
 /* =============== /ФУТЕР =============== */
 
 
-/* =============== PORTFOLIOa =============== */
+/* =============== PORTFOLIO =============== */
 .portfolio-filter-list:not(:last-child){
     margin-right: 8px;
 }
