@@ -763,6 +763,8 @@ body{
     border-radius: 50%;
     background: #FFFFFF;
     cursor: pointer;
+}
+.close-btn-icon{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .close-btn:hover .close-btn-icon,
@@ -794,6 +796,13 @@ body{
     flex-direction: column;
 }
 .modal-form-label {
+    display: block;
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: #757575;
     margin-bottom: 4px;
 }
 .modal-form-wrapper {
@@ -812,16 +821,6 @@ body{
 .modal-form-input:focus {
     outline: none;
     border-color: var(--btn-hover-focus-back-color);
-}
-.modal-form-label-span {
-    display: block;
-    font-family: var(--main-font);
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.16;
-    letter-spacing: 0.01em;
-
-    color: #757575;
 }
 .contact-form-icon {
     position: absolute;
